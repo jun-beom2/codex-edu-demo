@@ -1,0 +1,42 @@
+# 회사 실데이터 (절대 commit 금지)
+*_실데이터.*
+출퇴근_원본_*.csv
+출퇴근_원본_*.xlsx
+사번_매핑.csv
+*_개인정보.*
+
+# 비밀번호·API 키
+.env
+.env.local
+secrets.json
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터
+.vscode/settings.json
+.idea/
+*.swp
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+~$*
